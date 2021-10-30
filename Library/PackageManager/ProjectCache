@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637697549912367464
-    m_Hash: 511627749
+      ticks: 637711131406815117
+    m_Hash: 1826897639
   m_LockFileStatus:
     m_FilePath: C:/Users/HP/Desktop/Game/GameDemos/Dungeon Escape/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637697550202146946
-    m_Hash: 80575761
+      ticks: 637711131406944782
+    m_Hash: 1894436820
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -81,6 +81,7 @@ m_ResolvedPackages:
     - 3.2.9
     - 3.2.10
     - 3.2.11
+    - 3.2.13
     - 4.0.0
     - 4.0.1
     - 4.1.0
@@ -101,6 +102,7 @@ m_ResolvedPackages:
     - 5.0.6
     - 5.0.7
     - 5.0.8
+    - 5.0.9
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
@@ -112,6 +114,7 @@ m_ResolvedPackages:
     - 7.0.0-pre.3
     - 7.0.0
     - 7.0.1
+    - 8.0.0-pre.3
     compatible:
     - 6.0.3
     - 6.0.4
@@ -294,6 +297,7 @@ m_ResolvedPackages:
     - 2.1.5
     - 2.1.6
     - 2.1.8
+    - 2.1.9
     - 3.0.0
     - 3.1.1
     - 3.1.3
@@ -306,6 +310,7 @@ m_ResolvedPackages:
     - 4.0.2
     - 4.1.0
     - 4.1.1
+    - 4.1.2
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.1
@@ -317,6 +322,7 @@ m_ResolvedPackages:
     - 6.0.0-pre.4
     - 6.0.0
     - 6.0.1
+    - 7.0.0-pre.3
     compatible:
     - 5.0.3
     - 5.0.4
@@ -431,12 +437,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.spriteshape@6.0.0
+- packageId: com.unity.2d.spriteshape@6.0.2
   testable: 0
   isDirectDependency: 1
-  version: 6.0.0
+  version: 6.0.2
   source: 1
-  resolvedPath: C:\Users\HP\Desktop\Game\GameDemos\Dungeon Escape\Library\PackageCache\com.unity.2d.spriteshape@6.0.0
+  resolvedPath: C:\Users\HP\Desktop\Game\GameDemos\Dungeon Escape\Library\PackageCache\com.unity.2d.spriteshape@6.0.2
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -512,6 +518,7 @@ m_ResolvedPackages:
     - 7.0.0-pre.3
     - 7.0.0
     - 7.0.2
+    - 8.0.0-pre.4
     compatible:
     - 6.0.0
     - 6.0.1
@@ -523,7 +530,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.common
     version: 5.0.0
   - name: com.unity.2d.path
-    version: 5.0.0
+    version: 5.0.1
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
@@ -544,7 +551,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.2d.path
-    version: 5.0.0
+    version: 5.0.1
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -566,13 +573,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637526400040000000
+  datePublishedTicks: 637692088520000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
+    revision: dc06716385df1e86502c8ed354138f6562ea6e0a
     path: 
   unityLifecycle:
     version: 6.0.0
@@ -630,6 +637,232 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+- packageId: com.unity.2d.tilemap.extras@2.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.0
+  source: 1
+  resolvedPath: C:\Users\HP\Desktop\Game\GameDemos\Dungeon Escape\Library\PackageCache\com.unity.2d.tilemap.extras@2.0.0
+  assetPath: Packages/com.unity.2d.tilemap.extras
+  name: com.unity.2d.tilemap.extras
+  displayName: 2D Tilemap Extras
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: '2D Tilemap Extras is a package that contains extra scripts for use
+    with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
+    the Tilemap feature.
+
+
+    The following are included in the package:
+
+    Brushes:
+    GameObject Brush, Group Brush, Line Brush, Random Brush
+
+    Tiles: Animated
+    Tile, Rule Tile, Rule Override Tile
+
+    Other: Grid Information, Custom Rules
+    for Rule Tile'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.5.0-preview
+    - 1.6.0-preview.1
+    - 1.6.1-preview
+    - 1.6.2-preview
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.7.0-preview
+    - 1.8.0-preview
+    - 1.8.1-preview
+    - 2.0.0-pre.1
+    - 2.0.0-pre.2
+    - 2.0.0
+    - 2.2.0
+    - 2.2.1
+    - 3.0.0
+    compatible:
+    - 2.0.0
+    - 2.2.0
+    - 2.2.1
+    verified: 2.0.0
+  dependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  keywords:
+  - 2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637526397710000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/2d-extras.git
+    revision: dc1c26a83c330e23776675c91c2c0f22764de9c7
+    path: 
+  unityLifecycle:
+    version: 2.0.0
+    nextVersion: 
+- packageId: com.unity.cinemachine@2.7.9
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.9
+  source: 1
+  resolvedPath: C:\Users\HP\Desktop\Game\GameDemos\Dungeon Escape\Library\PackageCache\com.unity.cinemachine@2.7.9
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\nNew starting from
+    2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
+    menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
+    of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
+    this version from the Package Manager."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    - 2.6.9
+    - 2.6.10
+    - 2.7.1
+    - 2.7.2
+    - 2.7.3
+    - 2.7.4
+    - 2.7.5
+    - 2.7.8
+    - 2.7.9
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    compatible:
+    - 2.7.3
+    - 2.7.4
+    - 2.7.5
+    - 2.7.8
+    - 2.7.9
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    verified: 2.7.9
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637703219070000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: 45030a8e7a24daae3215fc89709d5f771e4194fb
+    path: 
+  unityLifecycle:
+    version: 2.7.3
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.7.1
   testable: 0
   isDirectDependency: 1
@@ -680,6 +913,8 @@ m_ResolvedPackages:
     - 1.11.2
     - 1.12.5
     - 1.13.5
+    - 1.14.1
+    - 1.15.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -700,6 +935,8 @@ m_ResolvedPackages:
     - 1.11.2
     - 1.12.5
     - 1.13.5
+    - 1.14.1
+    - 1.15.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -1028,12 +1265,14 @@ m_ResolvedPackages:
     - 1.1.26
     - 1.1.27
     - 1.1.29
+    - 1.1.30
     compatible:
     - 1.1.24
     - 1.1.26
     - 1.1.27
     - 1.1.29
-    verified: 1.1.29
+    - 1.1.30
+    verified: 1.1.30
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1315,22 +1554,26 @@ m_ResolvedPackages:
     - 1.5.4
     - 1.5.5
     - 1.5.6
+    - 1.5.7
     - 1.6.0-pre.1
     - 1.6.0-pre.3
     - 1.6.0-pre.4
     - 1.6.0-pre.5
     - 1.6.1
     - 1.6.2
+    - 1.6.3
     compatible:
     - 1.5.5
     - 1.5.6
+    - 1.5.7
     - 1.6.0-pre.1
     - 1.6.0-pre.3
     - 1.6.0-pre.4
     - 1.6.0-pre.5
     - 1.6.1
     - 1.6.2
-    verified: 1.5.6
+    - 1.6.3
+    verified: 1.5.7
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -3523,6 +3766,7 @@ m_ResolvedPackages:
     - 6.0.0-pre.3
     - 6.0.0-pre.4
     - 6.0.0
+    - 7.0.0-pre.3
     compatible:
     - 5.0.0
     verified: 5.0.0
@@ -3569,12 +3813,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 5.0.0
     nextVersion: 
-- packageId: com.unity.2d.path@5.0.0
+- packageId: com.unity.2d.path@5.0.1
   testable: 0
   isDirectDependency: 0
-  version: 5.0.0
+  version: 5.0.1
   source: 1
-  resolvedPath: C:\Users\HP\Desktop\Game\GameDemos\Dungeon Escape\Library\PackageCache\com.unity.2d.path@5.0.0
+  resolvedPath: C:\Users\HP\Desktop\Game\GameDemos\Dungeon Escape\Library\PackageCache\com.unity.2d.path@5.0.1
   assetPath: Packages/com.unity.2d.path
   name: com.unity.2d.path
   displayName: 2D Path
@@ -3631,13 +3875,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637526399200000000
+  datePublishedTicks: 637661771910000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
+    revision: bcbc5fb1cb18a1a4cf6e15325550ed4b8fbb21bc
     path: 
   unityLifecycle:
     version: 5.0.0
